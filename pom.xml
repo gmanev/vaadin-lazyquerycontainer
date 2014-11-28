@@ -96,6 +96,7 @@
         <module>vaadin-lazyquerycontainer</module>
         <module>vaadin-lazyquerycontainer-jpa-example</module>
         <module>vaadin-lazyquerycontainer-mock-example</module>
+        <module>vaadin-lazyquerycontainer-fragment</module>        
     </modules>
 
 </project>
