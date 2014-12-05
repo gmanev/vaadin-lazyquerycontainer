@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.0.0 http://karaf.apache.org/xmlns/features/v1.0.0"
+    name="vaadin-lazyquerycontainer-feature">
+    
+    <feature name="vaadin-lazyquerycontainer" version="${pom.version}">
+        <bundle>mvn:org.vaadin.addons.lazyquerycontainer/vaadin-lazyquerycontainer/${pom.version}</bundle>
+        <bundle>mvn:org.vaadin.addons.lazyquerycontainer/vaadin-lazyquerycontainer-fragment/${pom.version}</bundle>
+    </feature>
+
+</features>
